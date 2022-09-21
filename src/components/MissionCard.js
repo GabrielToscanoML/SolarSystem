@@ -5,11 +5,11 @@ class MissionCard extends React.Component {
   render() {
     const { name, year, country, destination } = this.props;
     return (
-      <div data-testid="mission-card" id="missionCardID">
+      <div data-testid="mission-card" className="missionCardID">
         <p data-testid="mission-name">{name}</p>
-        <section id="noNameMission">
+        <section className="noNameMission">
           <p data-testid="mission-year">{year}</p>
-          <p data-testid="mission-country" id="country">{country}</p>
+          <p data-testid="mission-country" className="country">{country}</p>
           <p data-testid="mission-destination">{destination}</p>
         </section>
       </div>
