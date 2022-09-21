@@ -8,47 +8,47 @@ body {
 }
 
 .Header, h1, .Title {
-  text-align: center;
   justify-content: center;
+  text-align: center;
 }
 
-#planet-info {
+.planet-info {
   display: flex;
   padding: 20px;
 }
 
 .PlanetCard, #planetCardID {
   font-size: 25px;
-  width: 450px;
   justify-content: center;
+  width: 450px;
   text-align: center;
 }
 
 #mission-info {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 #noNameMission {
-  padding: 15px;
   display: flex;
+  padding: 15px;
   justify-content: space-around;
 }
 
 #country {
   display: flex;
-  margin: auto;
   flex-wrap: wrap;
+  margin: auto;
 }
 
 .MissionCard, #missionCardID {
   font-size: 25px;
-  width: 450px;
   height: 180px;
+  width: 450px;
   justify-content: space-around;
-  text-align: center;
   border: 2px solid white;
+  text-align: center;
   border-radius: 12px;
   margin-top: 20px;
 }
