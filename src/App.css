@@ -3,5 +3,52 @@
 }
 
 body {
-  background-image: url('images/space.jpg');
+  background-image: url('images/background.png');
+  color: white;
+}
+
+.Header, h1, .Title {
+  text-align: center;
+  justify-content: center;
+}
+
+#planet-info {
+  display: flex;
+  padding: 20px;
+}
+
+.PlanetCard, #planetCardID {
+  font-size: 25px;
+  width: 450px;
+  justify-content: center;
+  text-align: center;
+}
+
+#mission-info {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+#noNameMission {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+}
+
+#country {
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+}
+
+.MissionCard, #missionCardID {
+  font-size: 25px;
+  width: 450px;
+  height: 180px;
+  justify-content: space-around;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 12px;
+  margin-top: 20px;
 }
