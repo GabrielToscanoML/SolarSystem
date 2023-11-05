@@ -1,7 +1,8 @@
 <!-- ABOUT THE PROJECT -->
 ## Sobre o Projeto
 
-![image](https://github.com/GabrielToscanoML/Tryunfo/assets/68169956/32602d8e-e7e4-45ac-8db8-4abc712933f1)
+![image](https://github.com/GabrielToscanoML/SolarSystem/assets/68169956/859bc532-2a30-44cf-961c-aec1f0c1d89a)
+
 
 ### Desenvolvimento
 
