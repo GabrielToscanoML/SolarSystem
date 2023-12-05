@@ -10,7 +10,7 @@ class MissionCard extends React.Component {
         <section className="noNameMission">
           <p data-testid="mission-year">{year}</p>
           <p data-testid="mission-country" className="country">{country}</p>
-          <p data-testid="mission-destination">{destination}</p>
+          <p data-testid="mission-destination" className="destination">{destination}</p>
         </section>
       </div>
     );

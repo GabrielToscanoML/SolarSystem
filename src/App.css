@@ -34,25 +34,32 @@ body {
 
 .noNameMission {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   padding: 15px;
+  align-items: center;
 }
 
 .country {
   display: flex;
   flex-wrap: wrap;
-  margin: auto;
+  max-width: 150px;
 }
 
-.MissionCard, .missionCardID {
+.destination {
+  max-width: 100px;
+}
+
+.missionCardID {
+  display: flex;
+  flex-direction: column;
   border: 2px solid white;
   border-radius: 12px;
-  font-size: 25px;
+  font-size: 16px;
   height: 180px;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 20px;
   text-align: center;
-  width: 450px;
+  width: 350px;
 }
 
 ::-webkit-scrollbar {
