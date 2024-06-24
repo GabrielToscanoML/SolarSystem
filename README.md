@@ -18,7 +18,7 @@ Esse projeto foi desenvolvido para colocar em prática conhecimentos básicos ad
 <!-- GETTING STARTED -->
 ## Executando o projeto
 
-### Pré Requisitos:heavy_exclamation_mark:
+### Pré Requisitos :heavy_exclamation_mark:
 
 Para executar esse projeto, é importante ter instalado o Node na versão 16!
 
